@@ -3,7 +3,7 @@
 #### 1.安装nodejs
 #### 2.找到该文件夹
 #### 3.导入依赖包
-```npm --install```
+```npm install```
 #### 4.运行
 ```node main.js```
 

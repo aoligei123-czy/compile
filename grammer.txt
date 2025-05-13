@@ -1,0 +1,36 @@
+1.SL’->SL
+2.SL->S SL
+3.SL->S
+4.S->E;
+5.S->IfSt
+6.S->WhileSt
+7. S->BreakSt
+8. S->ContinueSt
+9. S->ReturnSt
+10. E->AE
+11.E->RE
+12.E->LE
+13.AE->AE OP AE
+14.AE->(AE)
+15.AE->id
+16.AE->num
+17.RE->AE==AE
+18.RE->AE!=AE
+19.RE->AE<AE
+20.RE->AE>AE
+21.RE->AE>=AE
+22.RE->AE<=AE
+23.LE->LE&&LE
+24.LE->LE||LE
+25.LE->!LE
+26.LE->RE
+27.IfSt->if (E) {SL}
+28. IfSt->if (E) {SL} else {SL}
+29.WhileSt->while (E){SL}
+30.BreakSt->break;
+31.ReturnSt->return E;
+32.ContinueSt->continue;
+33.OP->+
+34.OP->-
+35.OP->*
+36.OP->/

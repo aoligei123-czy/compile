@@ -1,0 +1,11 @@
+    if ( num + num > = id ) {
+        if ( num < = id & & num > id ) {
+            id + id ;
+            continue ;
+        }
+        else {
+           ( id - id ) * id ;
+            break ;
+           }
+    }
+return id / id ;

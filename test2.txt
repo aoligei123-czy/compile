@@ -1,0 +1,6 @@
+if ( num > id ) {
+        id + id ;
+    }
+    else {
+       ( id - id ) * id ;
+ }

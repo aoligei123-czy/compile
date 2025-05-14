@@ -1,0 +1,4 @@
+while ( num < = id & & num > id  ) {
+        id + id ;
+        continue ;
+}
